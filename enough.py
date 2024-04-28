@@ -34,12 +34,12 @@ while 1:
         continue
     if menu == 1:
         system("cls||clear")
-        print(Fore.LIGHTYELLOW_EX + "Telefon numarasını başında '+90' olmadan yazınız (Birden çoksa 'enter' tuşuna basınız): "+ Fore.LIGHTGREEN_EX, end="")
+        print(Fore.LIGHTYELLOW_EX + "Telefon numarasını başında '+90' olmadan yazınız (Birden çoksa 'enter' tuşuna basınız) TELEGRAM t.me/darkzonx1: "+ Fore.LIGHTGREEN_EX, end="")
         tel_no = input()
         tel_liste = []
         if tel_no == "":
             system("cls||clear")
-            print(Fore.LIGHTYELLOW_EX + "Telefon numaralarının kayıtlı olduğu dosyanın dizinini yazınız: "+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + "Telefon numaralarının kayıtlı olduğu dosyanın dizinini yazınız TELEGRAM t.me/darkzonx: "+ Fore.LIGHTGREEN_EX, end="")
             dizin = input()
             try:
                 with open(dizin, "r", encoding="utf-8") as f:
@@ -77,7 +77,7 @@ while 1:
             continue
         system("cls||clear")
         try:
-            print(Fore.LIGHTYELLOW_EX + f"Kaç adet SMS göndermek istiyorsun {sonsuz}: "+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + f"Kaç adet SMS göndermek istiyorsun {sonsuz} TELEGRAM  t.me/darkzonx1: "+ Fore.LIGHTGREEN_EX, end="")
             kere = input()
             if kere:
                 kere = int(kere)
@@ -119,7 +119,7 @@ while 1:
                                         break
                                     exec("sms."+attribute+"()")
                                     sleep(aralik)
-        print(Fore.LIGHTRED_EX + "\nMenüye dönmek için 'enter' tuşuna basınız..")
+        print(Fore.LIGHTRED_EX + "\nMenüye dönmek için 'enter' tuşuna basınız..  TELEGRAM  t.me/darkzonx1")
         input()
     elif menu == 2:
         system("cls||clear")
